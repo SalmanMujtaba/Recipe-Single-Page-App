@@ -1,3 +1,26 @@
-<p>
-  recipe-item works!
-</p>
+<div>
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view overlay hm-white-slight" ripple-radius>
+      <img [src]="recipe.imagePath" class="img-fluid" alt="#">
+      <a href="#">
+        <div class="mask"></div>
+      </a>
+    </div>
+    <!--/.Card image-->
+
+    <!--Card content-->
+    <div class="card-block">
+      <!--Title-->
+      <h4 class="card-title">{{recipe.name}}</h4>
+      <hr>
+      <!--Text-->
+      <p class="card-text">{{recipe.description}}</p>
+    </div>
+    <!--/.Card content-->
+  </div>
+  <!--/.Card-->
+</div>
+ 

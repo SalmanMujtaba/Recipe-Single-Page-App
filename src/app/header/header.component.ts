@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+// To route between shoppping list and recipe
   onSelect(featureSelected: string){
     this.feature.emit(featureSelected);
   }

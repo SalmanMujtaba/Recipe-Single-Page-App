@@ -1,4 +1,3 @@
 <button type="button" class="btn btn-primary" ripple-radius>New Recipe</button>
 <app-recipe-item *ngFor="let recipeEl of recipes" 
-                  [recipe]="recipeEl"
-                  (loadRecipe)="onRecipeSelected(recipeEl)"></app-recipe-item>
+                  [recipe]="recipeEl"></app-recipe-item>

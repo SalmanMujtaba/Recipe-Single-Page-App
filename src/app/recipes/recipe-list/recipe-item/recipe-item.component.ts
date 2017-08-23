@@ -11,7 +11,6 @@ export class RecipeItemComponent implements OnInit {
   //To link recipe-list and recipe-detail. Recipe-item is receiving data from recipe-list.
   @Input() recipe: Recipe;
 
-
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {

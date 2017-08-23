@@ -3,7 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
+import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from './typescripts/angular-bootstrap-md/free';
@@ -40,7 +40,7 @@ import { SampleComponent } from './sample/sample.component';
     //   apiKey: 'google_maps_api_key'
     // })
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA]
 })

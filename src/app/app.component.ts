@@ -9,5 +9,5 @@ export class AppComponent {
   featureLoaded='recipe';
   onNavigation(featureOpted:string){
     this.featureLoaded = featureOpted;
-  }
+  } 
 }

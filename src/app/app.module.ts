@@ -16,6 +16,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { SampleComponent } from './sample/sample.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { SampleComponent } from './sample/sample.component';
     FormsModule,
     HttpModule,
     MDBBootstrapModule.forRoot(),
+    AppRoutingModule
     // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key
     // AgmCoreModule.forRoot({
     //   apiKey: 'google_maps_api_key'

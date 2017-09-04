@@ -5,7 +5,7 @@
     <!--Card image-->
     <div class="view overlay hm-white-slight" ripple-radius>
       <img [src]="recipe.imagePath" class="img-fluid" alt="#">
-      <a href="#">
+      <a>
         <div class="mask"></div>
       </a>
     </div>
@@ -18,7 +18,7 @@
       <hr>
       <!--Text-->
       <p class="card-text">{{recipe.description}}</p>
-      <buton class="btn btn-lime btn-sm" (click)="onRecipeSelect()">Show Recipe</buton>
+      <buton class="btn btn-lime btn-sm" [routerLink]="[index]">Show Recipe</buton>
     </div>
     <!--/.Card content-->
   </div>
